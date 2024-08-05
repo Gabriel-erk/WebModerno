@@ -1,5 +1,6 @@
+// math.floor para arredondar para cima
 function divisaoEresto(dividendo, divisor){
-    return console.log(`Resultado da divisão: ${dividendo / divisor}, resto: ${dividendo % divisor}`);
+    return console.log(`Resultado da divisão: ${Math.floor(dividendo / divisor)}, resto: ${dividendo % divisor}`);
 }
 
-divisaoEresto(10, 5)
+divisaoEresto(11, 4)
